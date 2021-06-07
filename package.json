@@ -19,7 +19,8 @@
         "prettier": "cd components && yarn prettier && cd ../demos/showcase && yarn prettier && cd ../storybook && yarn prettier",
         "prettier:check": "cd components && yarn prettier:check && cd ../demos/showcase && yarn prettier:check && cd ../storybook && yarn prettier:check",
         "precommit": "yarn initialize && yarn install:dependencies && yarn prettier && yarn lint && yarn test && yarn build && yarn test:artifacts",
-        "update:submodule": "git submodule update --remote"
+        "update:submodule": "git submodule update --remote",
+        "coverage": "cd ./components && yarn test --no-watch --code-coverage "
     },
     "private": true,
     "repository": {
