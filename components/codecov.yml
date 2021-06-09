@@ -1,3 +1,5 @@
+fixes:
+  - "::components/"         # move root   e.g., "path/" => "after/path/"
 codecov:
   require_ci_to_pass: yes
 coverage:
